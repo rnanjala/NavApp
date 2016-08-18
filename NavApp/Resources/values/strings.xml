@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Syneregtic Infromation Systems</string>
+  <string name="drawer_open">Open</string>
+  <string name="drawer_close">Close</string>
+  <string name="menu_refresh">Refresh</string>
+  <string name="home">Home Page</string>
+  <string name="aboutus">About US </string>
+  <string name="services">Services</string>
+  <string name="clients">Clients</string>
+  <string name="news">News</string>
+  <string name="locations">Locations</string>
+  
+</resources>

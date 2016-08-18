@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+   
+
+  <ScrollView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+      <TextView
+        android:text="Headquartered in Washington, D.C., Synergetic Information Systems, Inc. provides IT services and solutions for the U.S. Federal Government, the District Government, and other clients."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Text1"
+        android:layout_marginTop="6dp"/>
+
+      <TextView
+          android:text="A minority-owned small business enterprise with an excellent track record of performance, Synergetic serves a wide range of clients with a strong focus on customer service, quality deliverables and Performance with Passion."
+          android:textAppearance="?android:attr/textAppearanceSmall"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/Text2"
+          android:layout_marginTop="20dp"/>
+      <TextView
+           android:text="To ensure our clients succeed and achieve their mission, Synergetic employs exceptional and seasoned professionals with extensive experience in our core capabilities who are always looking to exceed our client’s expectations. Our expert resources provide IT and Systems Integration services and solutions that integrate business knowledge, strategy, and technology to create significant value to the customer."
+          android:textAppearance="?android:attr/textAppearanceSmall"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/Text3"
+          android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+  </ScrollView>
+  
+</LinearLayout>

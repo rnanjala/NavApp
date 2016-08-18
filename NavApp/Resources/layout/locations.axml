@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+  <fragment
+          android:id="@+id/map"
+         android:layout_width="match_parent"
+         android:layout_height="200dp"
+         class ="com.google.android.gms.maps.v2.SupportMapFragment" />
+    <TextView
+        android:text="Metro Center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/txtLocation"
+        android:layout_marginTop="6dp"/>
+        
+    <TextView
+        android:text="1200 G st, NW, Suite 800"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAddress1"
+         android:layout_marginTop="2dp"/>
+    <TextView
+        android:text="Washington, DC 20005"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAddress2"
+         android:layout_marginTop="2dp" />
+  
+  
+  
+    <TextView
+        android:text="Navy Yard"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/textView1"
+         android:layout_marginTop="6dp"/>
+    <TextView
+        android:text="100 M st, SE, Suite 501"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+         android:layout_marginTop="2dp"/>
+    <TextView
+        android:text="Washington, DC 20003"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+          android:layout_marginTop="2dp"/>
+</LinearLayout>

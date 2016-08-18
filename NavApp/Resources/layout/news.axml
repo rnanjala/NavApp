@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+  <TextView
+      android:text="Synergetic makes to the INC 5000 list, an exclusive ranking of the nation’s fastest growing private companies for the second year in a row as an honoree."
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView1"
+       android:layout_marginTop="6dp"/>
+  <TextView
+       android:text="Synergetic Information Systems, Inc. has been successfully appraised to CMMI SVC Level 2 model.  This highly regarded appraisal strengthens Synergetic’s commitment to provide quality services to achieve highest level of customer satisfaction."
+       android:textAppearance="?android:attr/textAppearanceSmall"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/textView2"
+       android:layout_marginTop="5dp"
+      />
+  <TextView
+       android:text="Synergetic has been awarded a contract to support DOH, DC Govt Infrastructure consolidation efforts, office move, and helpdesk operations."
+       android:textAppearance="?android:attr/textAppearanceSmall"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/textView3"
+       android:layout_marginTop="5dp"
+        />
+  <TextView
+       android:text="Synergetic’s accounting system has been reviewed by DCAA and certified as an acceptable accounting system for prospective government contracts."
+       android:textAppearance="?android:attr/textAppearanceSmall"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/textView4"
+       android:layout_marginTop="5dp"
+       />
+  <TextView
+       android:text="Synergetic Information Systems, Inc. has received the ISO 9001:2008 Certification, an internationally recognized award for quality management systems. This highly regarded certification reflects Synergetic’s commitment to maintain a quality management system to ensure the delivery of reliable, high quality and cost-effective solutions and services to achieve the highest level of customer satisfaction."
+       android:textAppearance="?android:attr/textAppearanceSmall"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/textView5"
+       android:layout_marginTop="5dp"
+        />
+  <TextView
+       android:text="Synergetic is awarded with a Navy IDIQ vehicle to support IT Services."
+       android:textAppearance="?android:attr/textAppearanceSmall"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/textView5"
+       android:layout_marginTop="5dp"
+        />
+ 
+</LinearLayout>
